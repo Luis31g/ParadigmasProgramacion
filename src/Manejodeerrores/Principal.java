@@ -12,8 +12,8 @@ public class Principal {
             System.out.println(numeros[3]);
 
             System.out.println("final");
-        } catch (Exception e) {
-            System.out.println("Hay un error en el codigo");
+        } catch (java.lang.ArrayIndexOutOfBoundsException e) {
+            System.out.println("error: " +e.getMessage());
         }
 
     }
