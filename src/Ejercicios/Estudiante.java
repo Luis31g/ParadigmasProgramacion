@@ -1,6 +1,6 @@
 package Ejercicios;
 
-public class Estudiante extends Persona {
+public class Estudiante extends Persona implements IntAlumno, IntAlumno2 {
     String noCuenta;
     String curso;
     String calificacion;
@@ -17,6 +17,26 @@ public class Estudiante extends Persona {
     }
     public void verCurso(){
         System.out.println("El curso es: "+curso);
+    }
+
+    @Override
+    public void mostrarCurso() {
+        System.out.println("Curso: ");
+    }
+
+    @Override
+    public void mostrarGrado() {
+
+    }
+
+    @Override
+    public int obtenerTiempodeCarrera() {
+        return 0;
+    }
+
+    @Override
+    public void entrarCurso() {
+
     }
 }
 

@@ -8,7 +8,7 @@ public class prueba {
         boolean salir = false;
         int opcion; //Guardaremos la opcion del usuario
 
-        System.out.println("Programa para calcular areas y perimetros de " +
+        System.out.println("Programa para calcular area y perimetro de " +
                 "figuras.");
 
         while (!salir) {
@@ -16,7 +16,7 @@ public class prueba {
             System.out.println("1. Triangulo");
             System.out.println("2. Cuadrado");
 
-            System.out.println("Escoge una opcion");
+            System.out.println("Elige una opcion");
             opcion = sn.nextInt();
 
             switch (opcion) {
